@@ -11,4 +11,4 @@ movies = (movie_names[::-1])
 # print(movies)
 with open("movies_list.txt", mode="w", encoding="utf-8") as file:
     for movie in movies:
-        file.write(f"{movie}\n")
+        file.write(f"{movie}s\n")
